@@ -1,0 +1,28 @@
+ring_protection
+shield
+backpack
+    bag
+        scroll_defense
+        scroll_defense
+        scroll_defense
+        pouch
+            coin
+            coin
+    bag
+        potion_health
+        potion_health
+        potion_health
+        potion_health
+    bag
+        food
+        food
+        food
+    bag
+        water
+        water
+        water
+    pouch
+        coin
+        coin
+        coin
+        coin
