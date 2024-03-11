@@ -54,15 +54,15 @@ In this version, the application does not have any UI, functioning entirely with
 ```bash
 # Search for planets with a temperature between 150 and 400 Kelvin and smaller
 # than Earth
-dotnet run --project AstroFinder -- search-planets --file nome_do_ficheiro.csv --eqt-min 150 --eqt-max 400 --rade-max 1.0
+dotnet run --project AstroFinder -- search-planets --file filename.csv --eqt-min 150 --eqt-max 400 --rade-max 1.0
 # Search for stars older than 2 billion years and at a maximum
 # distance of 5 parsecs from the solar system
-dotnet run --project AstroFinder -- search-stars --file nome_do_ficheiro.csv --age-min 2.0 --dist-max 5.0
+dotnet run --project AstroFinder -- search-stars --file filename.csv --age-min 2.0 --dist-max 5.0
 # Search for planets discovered by the transit method until the year 2010
-dotnet run --project AstroFinder -- search-planets --file nome_do_ficheiro.csv --method "transit" --year-max 2010
+dotnet run --project AstroFinder -- search-planets --file filename.csv --method "transit" --year-max 2010
 # Shows information about planet Proxima Cen b (the closest known exoplanet
 # to Earth)
-dotnet run --project AstroFinder -- search-planets --file nome_do_ficheiro.csv --pl_name "proxima cen b"
+dotnet run --project AstroFinder -- search-planets --file filename.csv --pl_name "proxima cen b"
 ```
 
 By default, the _output_ should appear formatted and easy to read, in list form, and should contain all fields of interest similar to the [interactive application](#interactive-application), i.e.:
@@ -74,15 +74,16 @@ By default, the _output_ should appear formatted and easy to read, in list form,
 
 In the case of the last command given as an example, the output could be something like:
 
-```bash
-Planet name   Star name     Disc. method      Year   Orbital Radius    Mass   Eq. Temp.   Period (days)   (vs Earth)   (vs Earth)   (Kelvin)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Proxima Cen b   Proxima Cen   Radial Veloc...   2016    11.186   N/A   N/A   234
+```text
+Planet name     Star name     Disc. method      Year   Orbital        Radius            Mass   Eq. Temp.
+                                                       Period (days)  (vs Earth)  (vs Earth)    (Kelvin)
+-------------------------------------------------------------------------------------------------------
+Proxima Cen b   Proxima Cen   Radial Veloc...   2016          11.186         N/A         N/A        234
 ```
 
 There should also be an option (for example, `--csv`) to format the data exactly according to the file's input format. In the previous case, it would be:
 
-```bash
+```text
 pl_name,hostname,discoverymethod,disc_year,pl_orbper,pl_rade,pl_masse,pl_eqt
 Proxima Cen b,Proxima Cen,Radial Velocity,2016,11.186,,,234
 ```
@@ -90,14 +91,14 @@ Proxima Cen b,Proxima Cen,Radial Velocity,2016,11.186,,,234
 Note that it's not necessary to save this output to a file. For that, it would be enough to run the application as follows (repeating the previous example):
 
 ```bash
-dotnet run --project AstroFinder -- search-planets --file nome_do_ficheiro.csv --pl_name "proxima cen b" --csv > output.csv
+dotnet run --project AstroFinder -- search-planets --file filename.csv --pl_name "proxima cen b" --csv > output.csv
 ```
 
 It should be possible to reopen the file created with the application, except in the case of the star search, which would generate an incompatible file.
 
 If the group opts for the non-interactive implementation, there should be a default help that describes all possible options. Additionally, the report should contain a table with the description of these options.
 
-A flexible approach to command-line options handling is available in the [2nd LP1 project 2018/19]. A more advanced option, but much more practical after the learning curve, is to use the [Command Line Parser][CLParserLib] library, which works with attributes. To make use of this library, just run the following command in your project folder (i.e., in the folder that contains the `.csproj` file):
+A practical command-line argument parsing option consists of the [Command Line Parser][CLParserLib] library, which works with attributes. To make use of this library, just run the following command in your project folder (i.e., in the folder that contains the `.csproj` file):
 
 ```bash
 dotnet add package CommandLineParser --version 2.8.0
@@ -131,6 +132,7 @@ If it is implemented in console, the application should work on Windows, macOS, 
 * Among others.
 
 Instructions that only work on Windows have the following indication in their documentation:
+
 ![The current operating system is not Windows.](img/notsupported.png "The current operating system is not Windows.")
 
 Unity projects generally work well on Linux and macOS, even when developed on Windows.

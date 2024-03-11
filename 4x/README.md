@@ -80,7 +80,7 @@ The application's UI should have 5 buttons, clearly marked from 1 to 5. When cli
 
 The panel can be closed by the user, with the application returning to display the map.
 
-This functionality will be individually implemented for Project 2, during the live coding evaluation session scheduled for December 7th. For this reason, it will be very difficult to complete Project 2 (live coding) if you have not successfully completed this project.
+This functionality will be individually implemented during the individual live coding evaluation session. For this reason, it will be very difficult to complete the live coding if you have not successfully completed this project.
 
 #### Others
 
@@ -136,7 +136,7 @@ The project must be properly organized, following by making use of classes, `str
 
 In turn, the choice of the collection or collections to use should also be appropriate for the problem.
 
-The class structure should be well thought out and logically organized, making use of *design patterns* as appropriate. In particular, the project should follow an [MVC] approach (discussed in LP1, see last semester's _slides_), and be developed taking into account the principles of object-oriented programming, among others, the [SOLID] principles.
+The class structure should be well thought out and logically organized, making use of *design patterns* as appropriate. In particular, the project should follow an [MVC] approach, and be developed taking into account the principles of object-oriented programming, among others, the [SOLID] principles.
 
 These principles must be balanced with the [KISS] principle, crucial in the development of any application.
 

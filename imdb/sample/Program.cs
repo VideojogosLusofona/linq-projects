@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace SampleLP2p1
+namespace Sample4IMDB
 {
     public class Program
     {

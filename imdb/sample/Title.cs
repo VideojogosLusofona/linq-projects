@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace SampleLP2p1
+namespace Sample4IMDB
 {
     public struct Title
     {
