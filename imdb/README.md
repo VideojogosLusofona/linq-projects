@@ -181,7 +181,7 @@ This project has the following objectives:
 
 * **O1** - The program should work as specified.
 * **O2** - The project and code well organized, namely:
-  * Well-thought-out class structure (see [Project Organization and Class Structure][orgclasses] section).
+  * Well-thought-out class structure (see "Project Organization and Class Structure" section).
   * Properly commented and indented code.
   * No "dead" code that does nothing, such as variables, properties, or methods never used.
   * Project compiles and executes without errors and/or *warnings*.
@@ -220,17 +220,13 @@ This project has the following objectives:
 [LINQ]:https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries
 [CC BY-NC-SA 4.0]:https://creativecommons.org/licenses/by-nc-sa/4.0/
 [MIT]:https://opensource.org/license/MIT
-[lamv]:https://www.ulusofona.pt/licenciatura/videojogos
 [Nuno Fachada]:https://github.com/fakenmc
 [ULHT]:https://www.ulusofona.pt/
-[aed]:https://fenix.tecnico.ulisboa.pt/disciplinas/AED-2/2009-2010/2-semestre/honestidade-academica
-[ist]:https://tecnico.ulisboa.pt/pt/
 [Markdown]:https://guides.github.com/features/mastering-markdown/
 [SOLID]:https://en.wikipedia.org/wiki/SOLID
 [KISS]:https://en.wikipedia.org/wiki/KISS_principle
 [TSV]:https://en.wikipedia.org/wiki/Tab-separated_values
 [XML]:https://docs.microsoft.com/dotnet/csharp/codedoc
-[`Process`]:https://docs.microsoft.com/dotnet/api/system.diagnostics.process
 [IMDB]:https://www.imdb.com/
 [IMDBData]:https://www.imdb.com/interfaces/
 [IMDBDataGz]:https://datasets.imdbws.com/
@@ -242,11 +238,3 @@ This project has the following objectives:
 [ListSizeCtor]:https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.-ctor#System_Collections_Generic_List_1__ctor_System_Int32_
 [Join()]:https://docs.microsoft.com/dotnet/api/system.linq.enumerable.join
 [join]:https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/join-clause
-[2º projeto de LP1 2018/19]:https://github.com/VideojogosLusofona/lp1_2018_p2_solucao
-[fases de desenvolvimento]:#fases-de-desenvolvimento
-[Fase 1]:#fase-1-pesquisa-de-títulos-básica
-[Fase 2]:#fase-2-pesquisa-de-títulos-com-classificação
-[Fase 3]:#fase-3-ligação-entre-séries-e-os-respetivos-episódios
-[Fase 4]:#fase-4-pesquisa-de-pessoas
-[orgclasses]:#organização-do-projeto-e-estrutura-de-classes
-[objetivos]:#objetivos-e-critério-de-avaliação

@@ -146,7 +146,7 @@ This project has the following objectives:
 
 * **O1** - The program must work as specified.
 * **O2** - The project and code should be well organized, specifically:
-  * A well-thought-out class structure (see the section [Project Organization and Class Structure][orgclasses]).
+  * A well-thought-out class structure (see the section "Project Organization and Class Structure").
   * No "dead" code, such as unused variables, properties, or methods.
   * The project compiles and runs without errors and/or *warnings*.
 * **O3** - The code should be properly indented, commented, and documented. Documentation should be done with [XML documentation comments][XML].
@@ -183,20 +183,12 @@ This project has the following objectives:
 
 [CC BY-NC-SA 4.0]:https://creativecommons.org/licenses/by-nc-sa/4.0/
 [MIT]:http://opensource.org/licenses/MIT
-[lamv]:https://www.ulusofona.pt/licenciatura/videojogos
 [Nuno Fachada]:https://github.com/fakenmc
 [ULHT]:https://www.ulusofona.pt/
-[aed]:https://fenix.tecnico.ulisboa.pt/disciplinas/AED-2/2009-2010/2-semestre/honestidade-academica
-[ist]:https://tecnico.ulisboa.pt/pt/
 [Markdown]:https://guides.github.com/features/mastering-markdown/
 [SOLID]:https://en.wikipedia.org/wiki/SOLID
 [KISS]:https://en.wikipedia.org/wiki/KISS_principle
 [XML]:https://docs.microsoft.com/dotnet/csharp/codedoc
-[2º projeto de LP1 2018/19]:https://github.com/VideojogosLusofona/lp1_2018_p2_solucao
-[orgclasses]:#organização-do-projeto-e-estrutura-de-classes
-[objetivos]:#objetivos-e-critério-de-avaliação
 [4X]:https://en.wikipedia.org/wiki/4X
 [UnitySimpleFileBrowser]:https://github.com/yasirkula/UnitySimpleFileBrowser
-[Formato dos ficheiros de mapa]:#formato-dos-ficheiros-de-mapa
 [MVC]:https://www.geeksforgeeks.org/mvc-design-pattern/
-[.NET SDK 5.0]:https://dotnet.microsoft.com/download/dotnet/5.0

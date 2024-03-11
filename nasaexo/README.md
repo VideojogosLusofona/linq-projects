@@ -309,7 +309,7 @@ This project has the following objectives:
 
 * **O1** - The program must work as specified.
 * **O2** - The project and code well organized, namely:
-  * Well-thought-out class structure (see Project Organization and Class Structure section).
+  * Well-thought-out class structure (see "Project Organization and Class Structure" section).
   * Properly commented and indented code.
   * No "dead" code that does nothing, such as unused variables, properties or methods.
   * The project compiles and executes without errors and/or *warnings*.
@@ -349,25 +349,16 @@ This project has the following objectives:
 [MIT]:https://opensource.org/license/MIT
 [LINQ]:https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries
 [CC BY-NC-SA 4.0]:https://creativecommons.org/licenses/by-nc-sa/4.0/
-[lamv]:https://www.ulusofona.pt/licenciatura/videojogos
 [Nuno Fachada]:https://github.com/fakenmc
 [ULHT]:https://www.ulusofona.pt/
-[aed]:https://fenix.tecnico.ulisboa.pt/disciplinas/AED-2/2009-2010/2-semestre/honestidade-academica
-[ist]:https://tecnico.ulisboa.pt/pt/
 [Markdown]:https://guides.github.com/features/mastering-markdown/
-[Doxygen]:https://www.stack.nl/~dimitri/doxygen/
-[DocFX]:https://dotnet.github.io/docfx/
 [SOLID]:https://en.wikipedia.org/wiki/SOLID
 [KISS]:https://en.wikipedia.org/wiki/KISS_principle
 [CSV]:https://en.wikipedia.org/wiki/Comma-separated_values
 [XML]:https://docs.microsoft.com/dotnet/csharp/codedoc
-[Rainbow CSV]:https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv
 [ListSizeCtor]:https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.-ctor#System_Collections_Generic_List_1__ctor_System_Int32_
 [Join()]:https://docs.microsoft.com/dotnet/api/system.linq.enumerable.join
 [join]:https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/join-clause
-[2º projeto de LP1 2018/19]:https://github.com/VideojogosLusofona/lp1_2018_p2_solucao
-[orgclasses]:#organização-do-projeto-e-estrutura-de-classes
-[objetivos]:#objetivos-e-critério-de-avaliação
 [NASAexo]:https://exoplanetarchive.ipac.caltech.edu/
 [NASAexoData]:https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS&constraint=default_flag=1
 [CSV Rainbow]:https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv
