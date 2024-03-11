@@ -209,7 +209,7 @@ This project has the following objectives:
 
 ## Licenses
 
-* This statement is made available through the [CC BY-NC-SA 4.0] license.
+* This assignment is made available through the [CC BY-NC-SA 4.0] license.
 * The example code is made available through the [MIT] license.
 
 ## Metadata
