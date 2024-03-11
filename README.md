@@ -1,5 +1,5 @@
 <!--
-LINQ Projects 2019-2024 (c) by Nuno Fachada
+LINQ Projects 2018-2024 (c) by Nuno Fachada
 
 These project assignments are licensed under a
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
