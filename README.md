@@ -12,11 +12,11 @@ work. If not, see <http://creativecommons.org/licenses/by-nc-sa/4.0/>.
 
 This repository contains the following LINQ-oriented project assignments:
 
-- [Steam BD](steam/README.md)
-- [IMBD](imdb/README.md)
-- [NASA Exoplanets DB](nasaexo/README.md)
-- [4X Game](4x/README.md)
-- [Recursive Inventory](recinvent/README.md)
+- [Steam BD](steam)
+- [IMBD](imdb)
+- [NASA Exoplanets DB](nasaexo)
+- [4X Game](4x)
+- [Recursive Inventory](recinvent)
 
 The goal of these assignments is to teach database concepts to undergraduate
 students in interdisciplinary degree programs, where teaching databases as a
