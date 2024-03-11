@@ -1,0 +1,5 @@
+desert
+grassland
+hills
+mountain
+ocean
