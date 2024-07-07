@@ -2,50 +2,53 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: egrader
+title: LINQ Projects
 message: >-
-  Please cite this repository using the metadata from 'preferred-citation'.
+  If you reuse these contents, please cite them using the metadata from this
+  file.
 authors:
   - given-names: Nuno
     family-names: Fachada
     email: nuno.fachada@ulusofona.pt
     affiliation: 'Lusófona University, COPELABS'
-    orcid: 'https://orcid.org/0000-0002-8487-5837'
-repository-code: 'https://github.com/VideojogosLusofona/linq-projects'
-abstract: >-
-  LINQ assignments for interdisciplinary programmes.
+    orcid: "https://orcid.org/0000-0002-8487-5837"
+repository: "https://github.com/VideojogosLusofona/linq-projects/"
+abstract: >
+  LINQ-oriented project assignments for teaching database concepts to
+  undergraduate students in interdisciplinary degree programs.
 keywords:
   - LINQ
-  - dotnet
-  - C#
   - databases
-  - computer science education
-license: MIT
+  - C#
+  - Object-oriented
+license:
+  - CC-BY-NC-SA-4.0
+  - MIT
 preferred-citation:
   type: conference-paper
-  collection-type: proceedings
-  collection-title: >-
-    Proceedings of the 2020 ACM Conference on Innovation and Technology in
-    Computer Science Education
-  conference:
-    name: ITiCSE '20
   authors:
     - given-names: Nuno
       family-names: Fachada
       email: nuno.fachada@ulusofona.pt
-      affiliation: 'Lusófona University, COPELABS'
-      orcid: 'https://orcid.org/0000-0002-8487-5837'
-    - given-names: Nélio
-      family-names: Códices
-      email: nelio.codices@ulusofona.pt
-      affiliation: 'Lusófona University, ECATI'
-      orcid: 'https://orcid.org/0000-0001-8682-0410'
-  title: "Top-down Design of a CS Curriculum for a Computer Games BA"
-  doi: 10.1145/3341525.3387378
+      affiliation: Lusófona University, COPELABS
+      orcid: "https://orcid.org/0000-0002-8487-5837"
+  title: >
+    Databases Without Databases: Projects for Including Database Concepts in
+    Interdisciplinary Curricula with LINQ
+  collection-title: >
+    ITiCSE 2024: Proceedings of the 2024 on Innovation and Technology in
+    Computer Science Education
+  collection-type: proceedings
+  location:
+    name: Università degli Studi di Milano
+    city: Milan
+    country: IT
+  doi: 10.1145/3649405.3659525
+  volume: 2
+  start: 793
+  end: 794
+  month: 7
+  year: 2024
+  url: "https://doi.org/10.1145/3649405.3659525"
   publisher:
     name: ACM
-  start: 300
-  end: 306
-  month: 6
-  year: 2020
-
