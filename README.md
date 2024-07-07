@@ -11,7 +11,6 @@ work. If not, see <http://creativecommons.org/licenses/by-nc-sa/4.0/>.
 [![Doc License](https://img.shields.io/badge/license-CC&nbsp;BY&#8208;NC&#8208;SA&nbsp;4.0-green.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![MIT License](https://img.shields.io/badge/code&nbsp;license-MIT-yellowgreen.svg)](http://opensource.org/licenses/MIT)
 
-
 # LINQ Projects
 
 This repository contains the following LINQ-oriented project assignments:
@@ -28,6 +27,13 @@ standalone course is not practical. The projects were developed for a CS2-level
 programming course, where LINQ and basic database concepts are lectured, and
 have been shown to effectively engage students and improve their understanding
 of queries and data manipulation.
+
+## Citation
+
+* Fachada, N. (2024). Databases Without Databases: Projects for Including
+  Database Concepts in Interdisciplinary Curricula with LINQ. In Proceedings of
+  the 2024 on Innovation and Technology in Computer Science Education V. 2 (pp.
+  793-794), Milan, Italy. <https://doi.org/10.1145/3649405.3659525>
 
 ## Licenses
 
